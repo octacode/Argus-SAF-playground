@@ -8,7 +8,7 @@ import org.argus.play.random.{CountComponentNum, IntentResolver, NativeStatistic
   * Created by fgwei on 3/8/17.
   */
 object Main extends App {
-  private val version = org.argus.BuildInfo.version
+  private val version = "3.1.3"//org.argus.BuildInfo.version
 
   object Mode extends Enumeration {
     val ARGUS_SAF_PLAY, NATIVE_STATISTICS, COUNT_COMPONENT_NUM, SECURITY_ANALYSIS, INTENT_RESOLVE = Value
